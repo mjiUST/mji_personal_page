@@ -1,3 +1,13 @@
+# My Note
+## [Deply Host on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/#stepbystep-instructions)
+1. create a repo for Hugo's content and other source files, for example the [Academic](https://sourcethemes.com/academic/)
+    - Design your website
+    - Render the webite to the disc: `hugo server --renderToDisk`, the `./public` folder will be generated
+2. create a repo for <USERNAME>.github.io
+    - copy the content in the previous dir `./public` into this repo
+    - commit and push.
+
+
 # [Academic Kickstart](https://sourcethemes.com/academic/)
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
